@@ -1,0 +1,176 @@
+!SESSION 2015-07-24 16:06:20.232 -----------------------------------------------
+eclipse.buildId=3.6.1.201410201044
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=ja_JP
+Framework arguments:  -keyring /Users/student/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -data /Applications/MAMP/htdocs/Web/script -keyring /Users/student/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-07-24 16:06:25.793
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-07-24 16:06:30.631
+!MESSAGE No repository found at file:/Users/student/Downloads/jsdt-s0.5/bin/.svn/.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2015-07-24 16:06:30.737
+!MESSAGE Unable to read repository at jar:file:/Users/student/Downloads/jsdt-s0.5.zip!/content.xml.
+!STACK 0
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:128)
+	at java.util.jar.JarFile.<init>(JarFile.java:136)
+	at java.util.jar.JarFile.<init>(JarFile.java:73)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:72)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:48)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:70)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:104)
+	at sun.net.www.protocol.jar.JarURLConnection.getInputStream(JarURLConnection.java:132)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:115)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-07-24 16:06:30.760
+!MESSAGE No repository found at file:/Users/student/Downloads/jsdt-2.2.0/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-07-24 16:06:30.764
+!MESSAGE No repository found at file:/Users/student/Downloads/jsdt-2.2.0%202/plugins/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-07-24 16:06:32.501
+!MESSAGE No repository found at file:/Users/student/Downloads/jsdt-2.2.0/plugins/.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2015-07-24 16:06:32.503
+!MESSAGE Unable to read repository at jar:file:/Users/student/Downloads/jsdt-2.2.0%204/plugins/org.ayound.js.debug.engine_2.2.0.jar!/content.xml.
+!STACK 0
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:128)
+	at java.util.jar.JarFile.<init>(JarFile.java:136)
+	at java.util.jar.JarFile.<init>(JarFile.java:73)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:72)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:48)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:70)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:104)
+	at sun.net.www.protocol.jar.JarURLConnection.getInputStream(JarURLConnection.java:132)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:115)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-07-24 16:06:32.506
+!MESSAGE No repository found at file:/Users/student/Downloads/jsdt-s0.5/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-07-24 16:06:32.529
+!MESSAGE No repository found at file:/Users/student/Downloads/jsdt-2.2.0%203/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-07-24 16:06:32.543
+!MESSAGE No repository found at file:/Users/student/Downloads/jsdt-2.2.0%204/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-07-24 16:06:32.553
+!MESSAGE No repository found at file:/Users/student/Downloads/jsdt-2.2.0%202/.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2015-07-24 16:06:32.555
+!MESSAGE Unable to read repository at jar:file:/Users/student/Downloads/jsdt-2.2.0.zip!/content.xml.
+!STACK 0
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:128)
+	at java.util.jar.JarFile.<init>(JarFile.java:136)
+	at java.util.jar.JarFile.<init>(JarFile.java:73)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:72)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:48)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:70)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:104)
+	at sun.net.www.protocol.jar.JarURLConnection.getInputStream(JarURLConnection.java:132)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:115)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.jobs 2 2 2015-07-24 16:07:32.863
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.usage.internal.DefaultAnalyticsEventHandler$1
+!SESSION 2015-07-24 16:08:32.494 -----------------------------------------------
+eclipse.buildId=3.6.1.201410201044
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=ja_JP
+Framework arguments:  -keyring /Users/student/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -data /Applications/MAMP/htdocs/Web/script -keyring /Users/student/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-07-24 16:08:35.943
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-07-24 16:08:39.815
+!MESSAGE No repository found at file:/Users/student/Downloads/jsdt-s0.5/bin/.svn/.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2015-07-24 16:08:39.926
+!MESSAGE Unable to read repository at jar:file:/Users/student/Downloads/jsdt-s0.5.zip!/content.xml.
+!STACK 0
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:128)
+	at java.util.jar.JarFile.<init>(JarFile.java:136)
+	at java.util.jar.JarFile.<init>(JarFile.java:73)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:72)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:48)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:70)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:104)
+	at sun.net.www.protocol.jar.JarURLConnection.getInputStream(JarURLConnection.java:132)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:115)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-07-24 16:08:39.948
+!MESSAGE No repository found at file:/Users/student/Downloads/jsdt-2.2.0/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-07-24 16:08:39.955
+!MESSAGE No repository found at file:/Users/student/Downloads/jsdt-2.2.0%202/plugins/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-07-24 16:08:41.327
+!MESSAGE No repository found at file:/Users/student/Downloads/jsdt-2.2.0/plugins/.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2015-07-24 16:08:41.330
+!MESSAGE Unable to read repository at jar:file:/Users/student/Downloads/jsdt-2.2.0%204/plugins/org.ayound.js.debug.engine_2.2.0.jar!/content.xml.
+!STACK 0
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:128)
+	at java.util.jar.JarFile.<init>(JarFile.java:136)
+	at java.util.jar.JarFile.<init>(JarFile.java:73)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:72)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:48)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:70)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:104)
+	at sun.net.www.protocol.jar.JarURLConnection.getInputStream(JarURLConnection.java:132)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:115)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-07-24 16:08:41.333
+!MESSAGE No repository found at file:/Users/student/Downloads/jsdt-s0.5/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-07-24 16:08:41.337
+!MESSAGE No repository found at file:/Users/student/Downloads/jsdt-2.2.0%203/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-07-24 16:08:41.342
+!MESSAGE No repository found at file:/Users/student/Downloads/jsdt-2.2.0%204/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2015-07-24 16:08:41.345
+!MESSAGE No repository found at file:/Users/student/Downloads/jsdt-2.2.0%202/.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2015-07-24 16:08:41.347
+!MESSAGE Unable to read repository at jar:file:/Users/student/Downloads/jsdt-2.2.0.zip!/content.xml.
+!STACK 0
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:128)
+	at java.util.jar.JarFile.<init>(JarFile.java:136)
+	at java.util.jar.JarFile.<init>(JarFile.java:73)
+	at sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:72)
+	at sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:48)
+	at sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:70)
+	at sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:104)
+	at sun.net.www.protocol.jar.JarURLConnection.getInputStream(JarURLConnection.java:132)
+	at org.eclipse.ecf.provider.filetransfer.browse.URLFileSystemBrowser.runRequest(URLFileSystemBrowser.java:115)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.jobs 2 2 2015-07-24 16:09:30.592
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.usage.internal.DefaultAnalyticsEventHandler$1
