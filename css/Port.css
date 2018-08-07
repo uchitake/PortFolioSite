@@ -1,0 +1,371 @@
+.section {
+    text-align: center;
+    font-size: 150%;
+}
+
+#sections {
+    padding-right: 40px;
+}
+
+
+/* 上部内部リンクメニューデザイン */
+
+body {
+    background-color: #E1E1E1;
+}
+
+#header {
+    position: fixed;
+    z-index: 70;
+    width: 900px;
+    text-align: center;
+    white-space: nowrap;
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+}
+
+#title {
+    float: left;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    font-family: 'ScotchRomanMTW01-Italic_706945';
+    color: #888;
+    text-decoration: none;
+}
+
+
+.button {
+    background: none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    line-height: normal;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#menu li {
+    float: left;
+    font-size: 13px;
+    margin: 11px 0px 10px 5px;
+    color: #000;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-border-radius: 10px;
+    list-style-type: none;
+}
+
+#menu li.active {
+    background: #666;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#menu li.active a:hover {
+    color: #000;
+}
+
+#menu li:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+#menu li a,
+#menu li.active a {
+    padding: 9px 18px;
+    display: block;
+}
+
+#menu li.active a {
+    color: #fff;
+}
+
+li {
+    list-style-type: none;
+}
+
+.slider {
+    height: 550px;
+    display: block;
+}
+
+.slider li {
+    height: 530px;
+}
+
+.bx-next {
+    text-indent: 0px;
+    background-color: black;
+}
+
+.bxslider img {
+    display: block;
+    margin: 0 auto;
+}
+
+#slider1 {
+    height: 610px
+}
+
+#slider2 {}
+
+#slider3 {
+    height: 1300px;
+}
+
+#slider4 {
+    height: 670px;
+}
+
+#slider5 {
+    height: 1300px;
+}
+
+.fp-controlArrow.fp-prev {
+    border-color: transparent silver transparent transparent;
+}
+
+.fp-controlArrow.fp-next {
+    border-color: transparent transparent transparent silver;
+}
+
+.web {
+    margin: 0 auto;
+    width: 600px;
+    height: 530px;
+    color: dimgray;
+    -webkit-border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.web p {
+    font-size: 20px;
+}
+
+.web_text {
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 500px;
+    float: left;
+    font-size: 13px;
+    text-align: left;
+}
+
+.web_text ul {
+    padding: 0 20px;
+}
+
+.web_text li {
+    text-align: left;
+    width: 230px;
+    height: 30px;
+}
+
+.web_text p {
+    text-align: center;
+    font-size: 15px;
+    margin: 2px 0;
+}
+
+.web_text a {
+    height: auto;
+}
+
+.web_text_t {
+    float: left;
+}
+
+.web_tool {
+    float: left;
+}
+
+.web_lan {
+    margin: 10px;
+    float: left;
+    width: 230px
+}
+
+.web_lan li {
+    margin: 5px;
+    height: 20px;
+}
+
+.web_lan_2 {
+    margin: 5px;
+    float: left;
+    width: 230px;
+    font-size: 11px;
+}
+
+.web_lan_2 li {
+    height: 17px;
+    width: 90px;
+}
+
+.web_lan_3 {
+    margin: 5px;
+    float: left;
+    width: 150px;
+    font-size: 11px;
+}
+
+.web_lan_3 button {
+    width: 90px;
+    height: 25px;
+    font-size: 13px;
+    color: white;
+    background-color: silver;
+    -webkit-border-radius: 10px;
+}
+
+#Shop img {
+    margin-right: 5px;
+    float: left;
+    width: 250px;
+    height: 230px;
+    border: 1px solid;
+    border-color: darkgray;
+    -webkit-border-radius: 10px;
+    overflow: hidden;
+    padding: 0 5px;
+}
+
+#Garden img {
+    margin-right: 5px;
+    float: left;
+    width: 250px;
+    height: 230px;
+    border: 1px solid;
+    border-color: darkgray;
+    -webkit-border-radius: 10px;
+    overflow: hidden;
+    padding: 0 5px;
+}
+
+#Timer img {
+    margin-right: 10px;
+    float: left;
+    width: 250px;
+    height: 200px;
+    border: 1px solid;
+    border-color: darkgray;
+    -webkit-border-radius: 10px;
+    overflow: hidden;
+    padding: 0 0px;
+}
+
+#buget img {
+    margin-right: 10px;
+    float: left;
+    width: 120px;
+    height: 220px;
+    border: 1px solid;
+    border-color: darkgray;
+    -webkit-border-radius: 5px;
+    overflow: hidden;
+    padding: 0 0px;
+}
+
+#element img {
+    margin: 0 25px;
+    float: left;
+    width: 120px;
+    height: 210px;
+    border: 1px solid;
+    border-color: darkgray;
+    -webkit-border-radius: 5px;
+    overflow: hidden;
+    padding: 0 0px;
+}
+
+.sub_title {
+    font-family: 'ScotchRomanMTW01-Italic_706945';
+    color: #666;
+}
+
+#profile {
+    display: inline-block;
+}
+
+.profile_sub {
+    width: 200px;
+    height: 410px;
+    color: dimgray;
+    -webkit-border-radius: 20px;
+    padding-top: 10px;
+    margin-right: 20px;
+    background-color: white;
+    float: left;
+}
+
+#data {
+    height: 480px;
+    width: 250px;
+}
+
+#data p {
+    font-size: 19px;
+    margin: 5px 0;
+}
+
+#lan {
+    height: 480px;
+    padding-top: 10px;
+}
+
+#lan_title {
+    font-size: 20px;
+}
+
+#lan ul {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#lan li {
+    float: left;
+    font-size: 17px;
+}
+
+#lan li a {
+    color: dimgray;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 70px;
+    float: left;
+}
+
+#tool {
+    height: 480px;
+    padding-top: 10px;
+}
+
+#tool_title {
+    font-size: 20px;
+}
+
+#tool ul {
+    margin-top: 20px;
+}
+
+#tool li {
+    float: left;
+    font-size: 16px;
+}
+
+#tool li a {
+    color: dimgray;
+    display: block;
+    margin-bottom: 7px;
+    margin-right: 30px;
+    float: left;
+}
